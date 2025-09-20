@@ -97,7 +97,7 @@ export const Contact = () => {
                   Estamos prontos para transformar suas ideias em realidade visual.
                 </p>
                 <a 
-                  href="https://w.app/geilsondesigner" 
+                  href="https://api.whatsapp.com/send/?phone=%2B5585992600937&text&type=phone_number&app_absent=0" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-12 py-6 rounded-full font-bold text-xl hover:from-purple-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105 shadow-xl shadow-purple-500/30"
