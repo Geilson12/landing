@@ -124,23 +124,21 @@ export const Contact = () => {
                 </p>
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 {contactInfo.map((info, index) => (
                   <div key={index} className="group bg-gray-800/30 backdrop-blur-lg rounded-2xl p-6 border border-gray-700/50 hover:border-purple-500/50 transition-all duration-300 hover:transform hover:scale-105">
-                    <div className="flex items-center gap-4 mb-4">
-                      <div className="bg-gradient-to-br from-purple-500 to-pink-500 p-3 rounded-xl">
+                    <div className="text-center mb-4">
+                      <div className="bg-gradient-to-br from-purple-500 to-pink-500 p-4 rounded-xl mx-auto w-fit mb-3">
                         <info.icon className="w-6 h-6 text-white" />
                       </div>
-                      <div>
-                        <h4 className="text-white font-semibold">{info.title}</h4>
-                        <p className="text-gray-300 text-sm">{info.content}</p>
-                      </div>
+                      <h4 className="text-white font-semibold mb-2">{info.title}</h4>
+                      <p className="text-gray-300 text-sm mb-4">{info.content}</p>
                     </div>
                     <a 
                       href={info.href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center gap-2 text-purple-400 hover:text-pink-400 transition-colors duration-300 font-semibold text-sm group-hover:translate-x-1"
+                      className="flex items-center justify-center gap-2 text-purple-400 hover:text-pink-400 transition-colors duration-300 font-semibold text-sm group-hover:translate-x-1"
                     >
                       {info.action}
                       <ArrowRight size={14} />
