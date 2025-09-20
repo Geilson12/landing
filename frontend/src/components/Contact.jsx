@@ -42,13 +42,15 @@ export const Contact = () => {
       icon: Mail,
       title: 'Email',
       content: 'contato@designelite.com',
-      action: 'Enviar Email'
+      action: 'Enviar Email',
+      href: 'https://w.app/geilsondesigner'
     },
     {
       icon: Phone,
       title: 'Telefone',
       content: '+55 (11) 9999-9999',
-      action: 'Ligar Agora'
+      action: 'Ligar Agora',
+      href: 'https://w.app/geilsondesigner'
     },
     {
       icon: MapPin,
