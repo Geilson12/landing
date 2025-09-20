@@ -106,7 +106,7 @@ export const Services = () => {
                 Vamos conversar sobre como podemos elevar sua marca ao próximo nível.
               </p>
               <a 
-                href="https://w.app/geilsondesigner" 
+                href="https://api.whatsapp.com/send/?phone=%2B5585992600937&text&type=phone_number&app_absent=0" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-8 py-4 rounded-full font-semibold text-lg hover:from-purple-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105 shadow-xl shadow-purple-500/30 inline-block"
