@@ -148,28 +148,34 @@ export const Contact = () => {
               </div>
 
               {/* Quick Response Promise */}
-              <div className="bg-gradient-to-r from-purple-900/30 to-pink-900/30 backdrop-blur-lg rounded-2xl p-6 border border-purple-500/20">
-                <h4 className="text-xl font-bold text-white mb-3">
-                  💜 Compromisso de Resposta Rápida
+              <div className="bg-gradient-to-r from-purple-900/30 to-pink-900/30 backdrop-blur-lg rounded-2xl p-8 border border-purple-500/20 mt-12 text-center">
+                <h4 className="text-2xl font-bold text-white mb-4">
+                  ⚡ Resposta Garantida em Minutos
                 </h4>
-                <p className="text-gray-300 text-sm leading-relaxed">
-                  Garantimos resposta em até 24 horas para todos os contatos. 
-                  Para projetos urgentes, oferecemos atendimento prioritário via WhatsApp.
+                <p className="text-gray-300 leading-relaxed text-lg">
+                  Atendimento personalizado via WhatsApp com resposta rápida. 
+                  Clique em qualquer botão acima e fale diretamente conosco!
                 </p>
               </div>
 
               {/* FAQ Quick Links */}
-              <div className="space-y-4">
-                <h4 className="text-xl font-bold text-white">Perguntas Frequentes</h4>
-                <div className="space-y-3">
+              <div className="space-y-4 mt-12">
+                <h4 className="text-2xl font-bold text-white text-center mb-8">Perguntas Frequentes</h4>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                   {[
                     'Qual é o prazo médio dos projetos?',
                     'Como funciona o processo de criação?',
                     'Quais são as formas de pagamento?'
                   ].map((question, index) => (
-                    <button key={index} className="w-full text-left bg-gray-800/30 p-4 rounded-xl text-gray-300 hover:text-white hover:bg-gray-700/30 transition-all duration-300">
+                    <a 
+                      key={index} 
+                      href="https://w.app/geilsondesigner"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-gray-800/30 p-6 rounded-xl text-gray-300 hover:text-white hover:bg-gray-700/30 transition-all duration-300 text-center hover:scale-105"
+                    >
                       {question}
-                    </button>
+                    </a>
                   ))}
                 </div>
               </div>
