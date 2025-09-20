@@ -169,7 +169,7 @@ export const Contact = () => {
                   ].map((question, index) => (
                     <a 
                       key={index} 
-                      href="https://w.app/geilsondesigner"
+                      href="https://api.whatsapp.com/send/?phone=%2B5585992600937&text&type=phone_number&app_absent=0"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-gray-800/30 p-6 rounded-xl text-gray-300 hover:text-white hover:bg-gray-700/30 transition-all duration-300 text-center hover:scale-105"
