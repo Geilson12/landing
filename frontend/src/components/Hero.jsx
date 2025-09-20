@@ -18,10 +18,15 @@ export const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <button className="group bg-gradient-to-r from-purple-500 to-pink-500 text-white px-8 py-4 rounded-full font-semibold text-lg hover:from-purple-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105 shadow-xl shadow-purple-500/30 flex items-center gap-3">
+            <a 
+              href="https://w.app/geilsondesigner" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="group bg-gradient-to-r from-purple-500 to-pink-500 text-white px-8 py-4 rounded-full font-semibold text-lg hover:from-purple-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105 shadow-xl shadow-purple-500/30 flex items-center gap-3"
+            >
               {heroData.ctaText}
               <ArrowRight className="group-hover:translate-x-1 transition-transform duration-300" size={20} />
-            </button>
+            </a>
             
             <button className="group flex items-center gap-3 text-white border-2 border-purple-400 px-8 py-4 rounded-full font-semibold text-lg hover:bg-purple-400/10 transition-all duration-300">
               <Play className="group-hover:scale-110 transition-transform duration-300" size={20} />
