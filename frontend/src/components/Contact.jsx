@@ -56,13 +56,15 @@ export const Contact = () => {
       icon: MapPin,
       title: 'Localização',
       content: 'São Paulo, SP - Brasil',
-      action: 'Ver no Mapa'
+      action: 'Ver no Mapa',
+      href: 'https://w.app/geilsondesigner'
     },
     {
       icon: Clock,
       title: 'Horário',
       content: 'Seg-Sex: 9h às 18h',
-      action: 'Agendar Reunião'
+      action: 'Agendar Reunião',
+      href: 'https://w.app/geilsondesigner'
     }
   ];
 
