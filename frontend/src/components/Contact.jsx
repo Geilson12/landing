@@ -43,28 +43,28 @@ export const Contact = () => {
       title: 'Email',
       content: 'contato@designelite.com',
       action: 'Enviar Email',
-      href: 'https://w.app/geilsondesigner'
+      href: 'https://api.whatsapp.com/send/?phone=%2B5585992600937&text&type=phone_number&app_absent=0'
     },
     {
       icon: Phone,
       title: 'Telefone',
-      content: '+55 (11) 9999-9999',
+      content: '+55 (85) 99260-0937',
       action: 'Ligar Agora',
-      href: 'https://w.app/geilsondesigner'
+      href: 'https://api.whatsapp.com/send/?phone=%2B5585992600937&text&type=phone_number&app_absent=0'
     },
     {
       icon: MapPin,
       title: 'Localização',
-      content: 'São Paulo, SP - Brasil',
+      content: 'Ceará, Brasil',
       action: 'Ver no Mapa',
-      href: 'https://w.app/geilsondesigner'
+      href: 'https://api.whatsapp.com/send/?phone=%2B5585992600937&text&type=phone_number&app_absent=0'
     },
     {
       icon: Clock,
       title: 'Horário',
       content: 'Seg-Sex: 9h às 18h',
       action: 'Agendar Reunião',
-      href: 'https://w.app/geilsondesigner'
+      href: 'https://api.whatsapp.com/send/?phone=%2B5585992600937&text&type=phone_number&app_absent=0'
     }
   ];
 
