@@ -85,102 +85,37 @@ export const Contact = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            {/* Contact Form */}
-            <div className="space-y-8">
-              <div>
-                <h3 className="text-3xl font-bold text-white mb-4">Vamos Conversar</h3>
-                <p className="text-gray-300 mb-8">
-                  Preencha o formulário e nossa equipe entrará em contato em até 24 horas 
-                  para discutir seu projeto em detalhes.
+          <div className="max-w-4xl mx-auto">
+            {/* Main CTA */}
+            <div className="text-center mb-12">
+              <div className="bg-gradient-to-r from-purple-900/30 to-pink-900/30 backdrop-blur-lg rounded-3xl p-12 border border-purple-500/20 mb-12">
+                <h3 className="text-4xl font-bold text-white mb-6">
+                  Vamos Conversar Agora!
+                </h3>
+                <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+                  Entre em contato pelo WhatsApp e receba uma resposta rápida sobre seu projeto.
+                  Estamos prontos para transformar suas ideias em realidade visual.
                 </p>
-              </div>
-
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div>
-                    <label className="block text-white font-semibold mb-2">Nome Completo *</label>
-                    <input
-                      type="text"
-                      name="name"
-                      value={formData.name}
-                      onChange={handleInputChange}
-                      required
-                      className="w-full bg-gray-800/50 backdrop-blur-lg border border-gray-600/50 rounded-xl px-4 py-3 text-white placeholder-gray-400 focus:border-purple-500 focus:outline-none transition-colors duration-300"
-                      placeholder="Seu nome completo"
-                    />
-                  </div>
-                  <div>
-                    <label className="block text-white font-semibold mb-2">Email *</label>
-                    <input
-                      type="email"
-                      name="email"
-                      value={formData.email}
-                      onChange={handleInputChange}
-                      required
-                      className="w-full bg-gray-800/50 backdrop-blur-lg border border-gray-600/50 rounded-xl px-4 py-3 text-white placeholder-gray-400 focus:border-purple-500 focus:outline-none transition-colors duration-300"
-                      placeholder="seu@email.com"
-                    />
-                  </div>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div>
-                    <label className="block text-white font-semibold mb-2">Empresa</label>
-                    <input
-                      type="text"
-                      name="company"
-                      value={formData.company}
-                      onChange={handleInputChange}
-                      className="w-full bg-gray-800/50 backdrop-blur-lg border border-gray-600/50 rounded-xl px-4 py-3 text-white placeholder-gray-400 focus:border-purple-500 focus:outline-none transition-colors duration-300"
-                      placeholder="Nome da sua empresa"
-                    />
-                  </div>
-                  <div>
-                    <label className="block text-white font-semibold mb-2">Serviço de Interesse</label>
-                    <select
-                      name="service"
-                      value={formData.service}
-                      onChange={handleInputChange}
-                      className="w-full bg-gray-800/50 backdrop-blur-lg border border-gray-600/50 rounded-xl px-4 py-3 text-white focus:border-purple-500 focus:outline-none transition-colors duration-300"
-                    >
-                      <option value="">Selecione um serviço</option>
-                      <option value="identidade-visual">Identidade Visual</option>
-                      <option value="design-digital">Design Digital</option>
-                      <option value="material-grafico">Material Gráfico</option>
-                      <option value="consultoria-criativa">Consultoria Criativa</option>
-                      <option value="projeto-completo">Projeto Completo</option>
-                    </select>
-                  </div>
-                </div>
-
-                <div>
-                  <label className="block text-white font-semibold mb-2">Mensagem *</label>
-                  <textarea
-                    name="message"
-                    value={formData.message}
-                    onChange={handleInputChange}
-                    required
-                    rows={6}
-                    className="w-full bg-gray-800/50 backdrop-blur-lg border border-gray-600/50 rounded-xl px-4 py-3 text-white placeholder-gray-400 focus:border-purple-500 focus:outline-none transition-colors duration-300 resize-none"
-                    placeholder="Conte-nos sobre seu projeto, objetivos e como podemos ajudar..."
-                  />
-                </div>
-
                 <a 
                   href="https://w.app/geilsondesigner" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:from-purple-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105 shadow-xl shadow-purple-500/30 flex items-center justify-center gap-3"
+                  className="inline-flex items-center gap-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-12 py-6 rounded-full font-bold text-xl hover:from-purple-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105 shadow-xl shadow-purple-500/30"
                 >
-                  Enviar Mensagem WhatsApp
-                  <Send size={20} />
+                  💬 Falar no WhatsApp
+                  <ArrowRight size={24} />
                 </a>
-              </form>
+              </div>
             </div>
 
-            {/* Contact Information */}
+            {/* Contact Information Grid */}
             <div className="space-y-8">
+              <div>
+                <h3 className="text-3xl font-bold text-white mb-4 text-center">Outras Formas de Contato</h3>
+                <p className="text-gray-300 mb-8 text-center">
+                  Estamos sempre disponíveis para atender você através de qualquer um dos canais abaixo.
+                </p>
+              </div>
               <div>
                 <h3 className="text-3xl font-bold text-white mb-4">Informações de Contato</h3>
                 <p className="text-gray-300 mb-8">
