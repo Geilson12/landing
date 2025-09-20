@@ -67,9 +67,14 @@ export const Header = () => {
                   {item.name}
                 </a>
               ))}
-              <button className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-full font-semibold mt-4 self-start">
+              <a 
+                href="https://w.app/geilsondesigner" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-full font-semibold mt-4 self-start inline-block"
+              >
                 Começar Projeto
-              </button>
+              </a>
             </div>
           </nav>
         )}
