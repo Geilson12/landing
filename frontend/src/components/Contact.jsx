@@ -163,23 +163,15 @@ export const Contact = () => {
                   />
                 </div>
 
-                <button
-                  type="submit"
-                  disabled={isSubmitting}
-                  className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:from-purple-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105 shadow-xl shadow-purple-500/30 flex items-center justify-center gap-3 disabled:opacity-50 disabled:cursor-not-allowed"
+                <a 
+                  href="https://w.app/geilsondesigner" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:from-purple-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105 shadow-xl shadow-purple-500/30 flex items-center justify-center gap-3"
                 >
-                  {isSubmitting ? (
-                    <>
-                      <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
-                      Enviando...
-                    </>
-                  ) : (
-                    <>
-                      Enviar Mensagem
-                      <Send size={20} />
-                    </>
-                  )}
-                </button>
+                  Enviar Mensagem WhatsApp
+                  <Send size={20} />
+                </a>
               </form>
             </div>
 
