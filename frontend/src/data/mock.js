@@ -119,24 +119,10 @@ export const testimonialsData = [
 export const teamData = [
   {
     id: 1,
-    name: "Carlos Eduardo",
-    role: "Diretor Criativo",
-    description: "15 anos de experiência em design gráfico e branding, especialista em identidade visual corporativa.",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face"
-  },
-  {
-    id: 2,
-    name: "Fernanda Costa",
-    role: "UI/UX Designer",
+    name: "Geilson Aguiar",
+    role: "Design Gráfico",
     description: "Especialista em design de interfaces digitais e experiência do usuário, focada em soluções inovadoras.",
-    image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=300&h=300&fit=crop&crop=face"
-  },
-  {
-    id: 3,
-    name: "Gabriel Santos",
-    role: "Designer Gráfico",
-    description: "Expert em material gráfico impresso e digital, com foco em campanhas publicitárias impactantes.",
-    image: "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=300&h=300&fit=crop&crop=face"
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face"
   }
 ];
 
