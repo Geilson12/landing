@@ -35,9 +35,14 @@ export const Header = () => {
           </nav>
 
           {/* CTA Button */}
-          <button className="hidden md:block bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-full font-semibold hover:from-purple-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105 shadow-lg shadow-purple-500/25">
+          <a 
+            href="https://w.app/geilsondesigner" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="hidden md:block bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-full font-semibold hover:from-purple-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105 shadow-lg shadow-purple-500/25"
+          >
             Começar Projeto
-          </button>
+          </a>
 
           {/* Mobile Menu Button */}
           <button
