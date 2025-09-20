@@ -201,10 +201,15 @@ export const Contact = () => {
                         <p className="text-gray-300 text-sm">{info.content}</p>
                       </div>
                     </div>
-                    <button className="flex items-center gap-2 text-purple-400 hover:text-pink-400 transition-colors duration-300 font-semibold text-sm group-hover:translate-x-1">
+                    <a 
+                      href={info.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 text-purple-400 hover:text-pink-400 transition-colors duration-300 font-semibold text-sm group-hover:translate-x-1"
+                    >
                       {info.action}
                       <ArrowRight size={14} />
-                    </button>
+                    </a>
                   </div>
                 ))}
               </div>
